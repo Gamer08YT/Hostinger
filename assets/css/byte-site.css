@@ -1,0 +1,150 @@
+:root {
+    --color_black_1: #262b2e;
+    --color_black_2: #34373c;
+    --color_black_3: #383c41;
+    --color_black_4: #40454b;
+    --color_white_1: #FFFFFF;
+    --color_blue_1: #6f86d7;
+}
+
+body {
+    background-color: var(--color_black_2);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    color: var(--color_white_1);
+}
+
+.nav-wrapper {
+    background-color: var(--color_black_1);
+}
+
+.page-footer {
+    background-color: var(--color_black_1) !important;
+}
+
+.swal2-popup {
+    background-color: var(--color_black_1) !important;
+}
+
+.swal2-validation-message {
+    background-color: var(--color_black_2) !important
+}
+
+.gray {
+    background-color: var(--color_black_1) !important
+}
+
+#account {
+    background-color: var(--color_black_1);
+}
+
+.card-action a {
+    color: var(--color_blue_1) !important;
+}
+
+.bot-icon {
+    top: 0;
+    right: 0;
+}
+
+.bot-language {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.bot-console {
+    min-height: 350px;
+    max-height: 400px;
+    align-content: center;
+    overflow: auto;
+    color: var(--color_white_1);
+    padding: 0px;
+    background-color: var(--color_black_1);
+    resize: none;
+    border-color: var(--color_black_1);
+}
+
+.flexbox {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border: 2px solid #333;
+}
+
+#user_table th {
+    color: var(--color_blue_1) !important;
+}
+
+#service_table th {
+    color: var(--color_blue_1) !important;
+}
+
+#user_table_info {
+    color: var(--color_blue_1) !important;
+}
+
+#service_table_info {
+    color: var(--color_blue_1) !important;
+}
+
+.odd {
+    background-color: var(--color_black_3) !important;
+}
+
+.even {
+    background-color: var(--color_black_4) !important;
+}
+
+#user_table_next {
+    color: var(--color_blue_1) !important;
+}
+
+#service_table_next {
+    color: var(--color_blue_1) !important;
+}
+
+#user_table_previous {
+    color: var(--color_blue_1) !important;
+}
+
+#service_table_previous {
+    color: var(--color_blue_1) !important;
+}
+
+#user_table_next:hover {
+    background-color: var(--color_blue_1) !important;
+}
+
+#service_table_next:hover {
+    background-color: var(--color_blue_1) !important;
+}
+
+.collapsible-header {
+    background-color: var(--color_blue_1) !important;
+    border-color: var(--color_blue_1) !important;
+}
+
+.collapsible {
+    border-color: var(--color_blue_1) !important;
+}
+
+.collapsible-body {
+    background-color:  var(--color_black_2);
+    border-color: var(--color_blue_1) !important;
+}
+
+.collapsible-body span {
+    color: var(--color_white_1) !important;
+}
