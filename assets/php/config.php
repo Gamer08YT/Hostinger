@@ -3,7 +3,7 @@ define("DB_HOST", "sql7.freemysqlhosting.net");
 define("DB_USER", "sql7377964");
 define("DB_PASSWORD", "P5tpQ5XuJv");
 define("DB_DATABASE", "sql7377964");
-define("DB_PREFIX", "kresu24_");
+define("DB_PREFIX", "sql7377964");
 
 $SQL = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE);
 global $DB;
