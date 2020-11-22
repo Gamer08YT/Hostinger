@@ -1,2 +1,2 @@
 # Hostinger
- A simple PHP Discord Bot Hosting Panel
+ A simple PHP Discord Bot Hosting Panel!
